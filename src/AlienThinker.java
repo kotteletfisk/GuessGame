@@ -7,9 +7,9 @@ public class AlienThinker implements IThinker
     }
 
     @Override
-    public String getName()
+    public int getName()
     {
-        return "'weird alien noises'";
+        return 12389471;
     }
 
     @Override
