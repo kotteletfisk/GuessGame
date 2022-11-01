@@ -6,9 +6,10 @@ public class AlienThinker implements IThinker
 
     }
 
-    public AlienThinker()
-    {
 
+    public void eatAlienStuff()
+    {
+        System.out.println("munchmunch");
     }
 
     public void makeAlienNoises()
