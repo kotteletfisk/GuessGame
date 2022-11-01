@@ -2,7 +2,6 @@ import java.util.Random;
 
 public class ComputerGuesser implements IGuesser
 {
-	Random rand = new Random();
 	private int min;
 	private int max;
 
@@ -22,11 +21,13 @@ public class ComputerGuesser implements IGuesser
 	int guess;
 	public int makeGuess()
 	{
+		Random rand = new Random();
 		guess = rand.nextInt(min, max + 1);
 		return guess;
 	}
 
 	public void guessFeedback(Answer answer)
+
 	{
 		switch(answer)
 		{
