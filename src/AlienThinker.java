@@ -6,10 +6,20 @@ public class AlienThinker implements IThinker
 
     }
 
+    public AlienThinker()
+    {
+
+    }
+
+    public void makeAlienNoises()
+    {
+        System.out.println("blublublub");
+    }
+
     @Override
     public String getName()
     {
-        return "12389471";
+        return "weird alien noises";
     }
 
     @Override
